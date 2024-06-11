@@ -1,0 +1,86 @@
+/*
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .grid-container7 {
+    
+    display: grid;
+ grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  */
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .grid-container7 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .grid-item {
+    background-color: #eee;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .grid-item:nth-child(1) {
+    background-color: #ff69b4; /* Sun (Core) */
+    transition: transform 0.2s;
+  }
+  
+  .grid-item:nth-child(2) {
+    background-color: #ffc080; /* Sun (Surface) */
+  }
+  
+  .grid-item:nth-child(3) {
+    background-color: #ffff00; /* Mercury (Day) */
+  }
+  
+  .grid-item:nth-child(4) {
+    background-color: #008000; /* Mercury (Night) */
+  }
+  
+  .grid-item:nth-child(5) {
+    background-color: #ff0000; /* Venus */
+  }
+  
+  .grid-item:nth-child(6) {
+    background-color: #00ffff; /* Earth */
+  }
+  
+  .grid-item:nth-child(7) {
+    background-color: #808000; /* Mars */
+  }
+  
+  .grid-item:nth-child(8) {
+    background-color: #0066cc; /* Jupiter */
+  }
+  
+  .grid-item:nth-child(9) {
+    background-color: #008080; /* Saturn */
+  }
+  .grid-item:nth-child(10) {
+    background-color: #004080; /* Uranus */
+  }
+  
+  .grid-item:nth-child(11) {
+    background-color: #008040; /* Neptune */
+  }
+  
+      
+  

@@ -1,0 +1,54 @@
+.container6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.heading6 {
+  margin-bottom: 20px;
+}
+
+.video-container6 {
+  width: 300%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.video6 {
+  display: flex;
+  max-width: 75%;
+  height: 1000px;
+}
+
+.button-container6 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav .nav-link1 button, nav .nav-link2 button, nav .nav-link3 button, nav .nav-link4 button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  height: 80px;
+  width: 150px;
+}
+
+nav .nav-link1 button:hover, nav .nav-link2 button:hover, nav .nav-link3 button:hover, nav .nav-link4 button:hover {
+  background-color: lightgreen;
+}
